@@ -147,9 +147,9 @@ li span {
 
   .container {
     min-width: unset;
-    width: 95vw;
+    width: 70vw;
     min-height: 245px;
-    padding: 25px;
+    /* padding: 25px; */
     margin: 0 auto;
   }
 
@@ -160,6 +160,11 @@ li span {
   .countdown {
     position: relative;
     top: 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
   }
 
   .form {
@@ -167,7 +172,7 @@ li span {
   }
 
   input {
-    width: 93%;
+    width: 100%;
   }
 
   h1 {
@@ -181,6 +186,12 @@ li span {
   }
   button {
     font-size: 18px;
+  }
+  ul {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
   }
   li {
     font-size: 15px;
