@@ -155,7 +155,6 @@ li span {
   }
 }
 
-/* اینو باید درست کنم ولی خیلی خوابم میاد */
 /* Media Query: Large Smartphone (Vertical) */
 @media screen and (max-width: 800px) {
   .video-background {
