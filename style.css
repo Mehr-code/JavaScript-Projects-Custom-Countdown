@@ -133,7 +133,7 @@ li span {
 }
 
 .complete-title {
-  animation: complete 0.8s infinite;
+  animation: complete 1s infinite;
 }
 
 @keyframes complete {
@@ -145,7 +145,7 @@ li span {
   }
   50% {
     color: green;
-    transform: scale(1.5);
+    transform: scale(1.2);
   }
   75% {
     color: blue;
