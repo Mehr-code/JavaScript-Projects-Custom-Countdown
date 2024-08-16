@@ -185,7 +185,7 @@ li span {
   .countdown {
     position: relative;
     top: 10px;
-    display: flex;
+    /* display: flex; */
     flex-flow: column;
     justify-content: center;
     align-items: center;
