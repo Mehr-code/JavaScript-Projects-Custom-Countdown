@@ -182,6 +182,7 @@ li span {
     top: unset;
   }
 
+  /* اینجا باید این دیسپلی رو درست کنی */
   .countdown {
     position: relative;
     top: 10px;
