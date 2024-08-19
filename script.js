@@ -51,10 +51,13 @@ function updateCountdown(e) {
   e.preventDefault();
   countdownTitle = e.srcElement[0].value;
   countdownDate = e.srcElement[1].value;
-
-  // Get number version of current Date, update DOM
-  countdownValue = new Date(countdownDate).getTime();
-  updateDOM();
+  // Check for valid date
+  if (countdownDate === "") alert("Please select a date for countdown");
+  else {
+    // Get number version of current Date, update DOM
+    countdownValue = new Date(countdownDate).getTime();
+    updateDOM();
+  }
 }
 
 // Reset All values
