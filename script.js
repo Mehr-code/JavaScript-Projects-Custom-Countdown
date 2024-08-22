@@ -1,12 +1,17 @@
+// Select DOM Element
+
+// Input Part
 const inputContainer = document.getElementById("input-container");
 const CountdownForm = document.getElementById("CountdownForm");
 const dateEl = document.getElementById("date-picker");
 
+// Countdown Part
 const countdownEl = document.getElementById("countdown");
 const countdownElTitle = document.getElementById("countdown-title");
 const countdownElBtn = document.getElementById("countdown-button");
 const timeElement = document.querySelectorAll("span");
 
+// Compelete Part
 const completeEl = document.getElementById("complete");
 const completeElInfo = document.getElementById("complete-info");
 const completeBtn = document.getElementById("complete-button");
