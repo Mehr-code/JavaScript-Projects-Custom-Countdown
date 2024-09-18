@@ -163,6 +163,9 @@ li span {
   /* .video-background {
     
   } */
+  body {
+    overflow-x: hidden;
+  }
 
   video {
     /* width: 100vw; */
@@ -180,8 +183,8 @@ li span {
   .container {
     /* margin: 2rem; */
     /* width: 70vw; */
-    min-width: 900px;
-    min-height: 245px;
+    min-width: 70vw;
+    height: 245px;
     /* padding: 25px; */
     margin: 2rem auto;
   }
